@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Eventos</title>
+</head>
+<body>
+    <header>
+        <h1>Ejercicios de Eventos JS</h1>
+    </header>
+    <section>
+        <h2>Crear una aplicación que calcule el índice de masa corporal.</h2>
+       
+        <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validation01" class="form-label">Estatura (centimetros)</label>
+              <input type="number" class="form-control" id="validation01" value="number" required>
+            </div>
+
+            <div class="col-md-4">
+              <label for="validation02" class="form-label">Peso (kilogramos)</label>
+              <input type="number" class="form-control" id="validation02" value="number" required>
+            </div>
+
+            <div class="input-group mb-3 resultado">
+                <button class="btn btn-outline-secondary" type="button" id="calcular">Calcular</button>
+                <input type="text" class="form-control" placeholder="Resultado" aria-label="Example text with button addon" aria-describedby="calcular" id="resultadoIM">
+              </div>
+        </form>
+
+    </section>
+
+    <section>
+      <h2>Crear una aplicación de conversion de divisa.</h2>
+     
+      <form class="row g-2 d-flex flex-row">
+          <div>
+          <label for="validation03" class="form-label">Peso Argentino</label>
+          <div class="d-flex flex-row">
+            <input type="text" class="form-control" id="validation03" value="916.60">
+            <input type="text" class="form-control" id="validation03" value="Peso Argentino">
+          </div>
+          </div>
+
+          <div>
+          <label for="validation04" class="form-label">Dolar Estadounidense</label>
+          <div class="d-flex flex-row">
+            <input type="text" class="form-control" id="validation04" value="1">
+            <input type="text" class="form-control" id="validation04" value="Dolar Estadounidense">
+          </div>
+          </div>
+      </form>
+    </section>
+
+    <section class="ult">
+      <h2>Realizar una aplicación de notas</h2>
+      <div class="tarjetas">
+          <h4>Nueva nota</h4>
+
+          <input type="text" class="form-control nombre" aria-describedby="emailHelp" placeholder="Titulo">
+          <textarea name="texto" class="area" placeholder="Escriba su nota aqui!"></textarea>
+
+          <button type="button" class="btn btn-success guardar">Guardar</button>
+          <button type="button" class="btn btn-danger borrar">Borrar</button>
+      </div>
+      <div class="navegador">
+          <input type="text" class="form-control buscar" aria-describedby="emailHelp" placeholder="Buscar">
+          <input type="checkbox" class="realizada" aria-describedby="emailHelp">
+      </div>
+      <div class="cartas"></div>
+      
+  </section>
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>
