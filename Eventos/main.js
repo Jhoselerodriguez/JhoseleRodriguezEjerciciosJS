@@ -146,5 +146,29 @@ let borrarText = ()=>{
 borrar.addEventListener("click", ()=>{borrarText()})
 guardar.addEventListener("click", ()=>{agregarNota()})
 
+let buscador = document.querySelector(".buscar")
+let realizada = document.querySelector(".realizadas")
+
+function marcarRealizada(id){
+    if(notas[id-1].realizada){
+        notas[id-1].realizada = false
+    }else{
+        notas[id-1].realizada = true
+    }
+    console.log(notas[id-1])
+    
+}
+
+function filtrar(array){
+    let completas = []
+    for(let i = 0; i < array.length; i++){
+        if(array[i].realizada){
+            completas.push(array[i])
+        }
+    }
+    console.log(completas)
+}
+
+
     
 
