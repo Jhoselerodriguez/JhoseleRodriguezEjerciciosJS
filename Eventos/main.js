@@ -8,14 +8,14 @@ let resultado = document.getElementById("resultadoIM")
 calcular.addEventListener("click", operacion);
 
 function operacion() {
-  resultado.value = (validation02.value / Math.pow((validation01.value/100), 2)).toFixed(2) + " es tu Indice de masa muscular."
+  resultado.value = (validation02.value / Math.pow((validation01.value/100), 2)).toFixed(2) + " es tu Indice de Masa Corporar."
 
 }
 
 // 2. Crear una aplicación de conversion de divisa.
 
 let validation03 = document.getElementById("validation03")
-let validation04 = document.getElementById("validation04")
+let validation04 = document.getElementById("validation05")
 
 validation03.addEventListener("keyup", myFunction1);
 
