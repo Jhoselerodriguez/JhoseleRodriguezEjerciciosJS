@@ -60,22 +60,26 @@
 
     <section class="ult">
       <h2>Realizar una aplicación de notas</h2>
+      <h3>Punto 3</h3>
       <div class="tarjetas">
           <h4>Nueva nota</h4>
 
-          <input type="text" class="form-control nombre"  placeholder="Titulo">
+          <input type="text" class="form-control nombre" placeholder="Titulo">
           <textarea name="texto" class="area" placeholder="Escriba su nota aqui!"></textarea>
 
           <button type="button" class="btn btn-success guardar">Guardar</button>
           <button type="button" class="btn btn-danger borrar">Borrar</button>
       </div>
       <div class="navegador">
-          <input type="text" class="form-control buscar"  placeholder="Buscar">
-          <input type="checkbox" class="realizada" >
+          <input type="text" class="form-control buscar" placeholder="Buscar">
+          
+          <div class="form-check form-switch checkboxing">
+              <label>Realizada</label>
+              <input class="form-check-input realizadas" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            </div>
+          
       </div>
-      
       <div class="cartas"></div>
-      
     </section>
   
   </main>
