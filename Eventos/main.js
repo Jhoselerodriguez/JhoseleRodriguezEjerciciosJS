@@ -8,7 +8,7 @@ let resultado = document.getElementById("resultadoIM")
 calcular.addEventListener("click", operacion);
 
 function operacion() {
-  resultado.value = (validation02.value / Math.pow((validation01.value/100), 2)).toFixed(2) + " es tu Indice de Masa Corporar."
+  resultado.value = (validation02.value / Math.pow((validation01.value/100), 2)).toFixed(2) + " es tu IMC."
 
 }
 
