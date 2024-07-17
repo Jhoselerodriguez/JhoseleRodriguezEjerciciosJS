@@ -22,10 +22,7 @@ h3{
 
     padding: 1rem;
     background-color: rgb(231, 240, 249);
-    display: flex;
-    flex-flow: column wrap;
-    height: 70vh;
-    justify-content: center;
+   
 }
 .area{
     width: 50rem;

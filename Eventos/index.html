@@ -58,20 +58,22 @@
       </form>
     </section>
 
-    <section class="ult">
+    <section class="ult gap-1">
       <h2>Realizar una aplicación de notas</h2>
       <h3>Punto 3</h3>
-      <div class="tarjetas">
-          <h4>Nueva nota</h4>
-
-          <input type="text" class="form-control nombre" placeholder="Titulo">
-          <textarea name="texto" class="area" placeholder="Escriba su nota aqui!"></textarea>
-
-          <button type="button" class="btn btn-success guardar">Guardar</button>
-          <button type="button" class="btn btn-danger borrar">Borrar</button>
+      <h4>Nueva nota</h4>
+      <div class="tarjetas d-flex flex-md-row flex-column w-100 align-items-center gap-3">
+          <div class="d-flex flex-column w-100">   
+           <input type="text" class="form-control nombre w-100" placeholder="Titulo">
+           <textarea name="texto" class="area w-100" placeholder="Escriba su nota aqui!"></textarea>
+          </div>
+          <div class="d-flex flex-column w-100 gap-3">   
+           <button type="button" class="btn btn-success guardar">Guardar</button>
+           <button type="button" class="btn btn-danger borrar">Borrar</button>
+          </div>
       </div>
       <div class="navegador">
-          <input type="text" class="form-control buscar" placeholder="Buscar">
+          <input type="text" class="form-control buscar w-50" placeholder="Buscar">
           
           <div class="form-check form-switch checkboxing">
               <label>Realizada</label>
